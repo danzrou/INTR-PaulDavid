@@ -19,8 +19,8 @@ Provide an example for micro and a macro task
 
 # Code
 ## Guidelines
-1. Components must use OnPush change detection strategy
-2. Your project should have fullTemplateTypeCheck set to true
+1. Components must use `OnPush` change detection strategy
+2. Your project should have `fullTemplateTypeCheck` set to true
 3. Your view encapsulation should be set to None
 4. Write at least 2 unit tests for different items (e.g. 1 for service, 1 for the component)
 5. You can use whatever UI / Component library you prefer
