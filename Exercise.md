@@ -70,24 +70,24 @@ Your app should include:
 Models
   ```
   export interface ShoppingCart {
-  items: ShoppingCartItem;
-  totalAmount: number;
-}
+    items: ShoppingCartItem;
+    totalAmount: number; 
+  }
 
 export interface ShoppingCartItem {
-  id: number;
-  name: string;
-  description: string;
-  type: ShoppingCartItemType;
-  price: number;
+    id: number;
+    name: string;
+    description: string;
+    type: ShoppingCartItemType;
+    price: number;
 }
 
 export const enum ShoppingCartItemType {
-  Beverage,
-  Snack,
-  Fruit,
-  Vegetable,
-  Meat
+    Beverage,
+    Snack,
+    Fruit,
+    Vegetable,
+    Meat
 }
   ```
 
